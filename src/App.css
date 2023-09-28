@@ -1,0 +1,56 @@
+#root {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+body {
+  background-color: #ADD8E6;
+}
+
+.MainDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 300px;
+  width: 30vw;
+  height: 500px;
+  border: rgb(2, 66, 131) solid 20px;
+}
+
+.input {
+  height: 40px;
+  width: 250px;
+  border-radius: 5px;
+  outline: 0;
+  border: none;
+  padding-left: 10px;
+  box-shadow: 5px 1px 5px 1px rgba(0, 0, 0, 0.212);
+  color: aliceblue;
+  margin-right: 5px;
+  font-size: 15px;
+}
+
+.input::placeholder{
+  color: aliceblue;
+}
+
+select {
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  outline: 0;
+  width: 100px;
+  box-shadow: 5px 1px 5px 1px rgba(0, 0, 0, 0.192);
+}
+
+.heading {
+  margin-bottom: 100px;
+  color: rgb(2, 66, 131);
+
+}
+
+h2 {
+  color: rgb(2, 66, 131);
+ 
+}
